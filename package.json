@@ -1,0 +1,20 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "Simple CI/CD project with GitHub Actions",
+  "scripts": {
+    "lint": "eslint js/**/*.js",
+    "validate-html": "html-validate index.html"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "html-validate": "^7.18.1"
+  }
+}

@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.50.0",
-    "html-validate": "^7.0.0"
+    "eslint": "^8.57.1",
+    "html-validate": "^7.18.1"
   }
 }

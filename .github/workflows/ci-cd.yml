@@ -21,13 +21,13 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: npm install --save-dev eslint html-validator-cli
+        run: npm install --save-dev eslint html-validate
 
       - name: Lint JavaScript
         run: npx eslint js/**/*.js --no-error-on-unmatched-pattern || true
 
       - name: Validate HTML
-        run: npx html-validator-cli --file index.html
+        run: npx html-validate index.html
 
   deploy:
     needs: validate
